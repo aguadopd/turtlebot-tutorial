@@ -4,6 +4,8 @@ title:  "Installing Ubuntu 14.04"
 date:   2015-02-01 13:46:09
 answerrostag: "ubuntu"
 track: [main]
+ref: ubuntu
+lang: en
 ---
 
 ## Ubuntu What?

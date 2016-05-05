@@ -4,6 +4,8 @@ title:  "TurtleBot Follower"
 date:   2015-02-04 10:00:07
 answerrostag: "challenge_follower"
 track: [challenge]
+ref: challenge_follower
+lang: en
 ---
 
 In this lesson we will launch TurtleBot follower demo. We will launch two

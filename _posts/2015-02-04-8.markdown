@@ -4,6 +4,8 @@ title:  "Writing Your First Rapp"
 date:   2015-02-04 10:00:08
 answerrostag: "challenge_rapp"
 track: [challenge]
+ref: challenge_rapp
+lang: en
 ---
 
 We want to show you how to write a rocon application (rapp). It is a bunch

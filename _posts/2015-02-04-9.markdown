@@ -4,6 +4,8 @@ title:  "Writing Your First Interaction"
 date:   2015-02-04 10:00:09
 answerrostag: "challenge_rocon_interaction"
 track: [challenge]
+ref: challenge_rocon_interaction
+lang: en
 ---
 
 In this lesson we will write user side of rocon application. We will learn how

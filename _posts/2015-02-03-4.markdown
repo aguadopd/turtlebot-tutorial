@@ -4,6 +4,8 @@ title:  "Testing Simulated Kinect"
 date:   2015-02-03 10:00:04
 answerrostag: "simulation_kinect"
 track: [simulation]
+ref: simulation_kinect 
+lang: en
 ---
 ## What is Kinect?
 {% include image_onrightoftext.html img="/assets/sim_kinect_camera.png" width="225" %}

@@ -4,6 +4,8 @@ title:  "Multiple TurtleBots in Concert"
 date:   2015-02-04 10:00:06
 answerrostag: "challenge_multiple_turtlebots"
 track: [challenge]
+ref: challenge_multiple_turtlebots
+lang: en
 ---
 
 In this lesson we will learn how to launch two TurtleBots simultaneously in

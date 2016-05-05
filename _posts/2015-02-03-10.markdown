@@ -4,6 +4,8 @@ title:  "Going Forward and Avoiding Obstacles Using Code"
 date:   2015-02-03 10:00:10
 answerrostag: "simulation_avoid_obstacles"
 track: [simulation]
+ref: simulation_avoid_obstacles
+lang: en
 ---
 
 We have learned how to launch and modify existing python script in

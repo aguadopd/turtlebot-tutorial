@@ -4,6 +4,8 @@ title:  "Software Installation"
 date:   2015-02-03 10:00:02
 answerrostag: "simulation_installation"
 track: [simulation]
+ref: simulation_installation
+lang: en
 ---
 
 This tutorial assumes you are running Ubuntu 14.04. If you want to install

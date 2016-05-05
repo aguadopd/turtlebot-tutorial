@@ -4,6 +4,8 @@ title:  "We Want You to Learn TurtleBot in Simulation!"
 date:   2015-02-03 10:00:01
 answerrostag: "simulation_introduction"
 track: [simulation]
+ref: simulation_introduction
+lang: en
 ---
 
 A robotics simulator is used to create embedded applications for a robot

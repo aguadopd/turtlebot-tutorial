@@ -4,6 +4,8 @@ title:  "Writing Your First Script"
 date:   2015-02-03 10:00:07
 answerrostag: "simulation_first_script"
 track: [simulation]
+ref: simulation_first_script
+lang: en
 ---
 
 We can write a program and robot will do these instructions. In this lesson you

@@ -1,10 +1,24 @@
 # Site settings
-title: Learn TurtleBot and ROS
+title: 
+  en: Learn TurtleBot and ROS
+  es: Aprende TurtleBot y ROS
+  
 email: mwsilliman@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  An open source getting started guide for web, mobile and maker developers interested in robotics.
+description:
+  en: An open source getting started guide for web, mobile and maker developers interested in robotics.
+  es: Una guía introductoria de código abierto para desarrolladores interesados en robótica.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+# Pages
+index:
+  en: ""
+  es: "index_es/"
+about:
+  en: about.md
+  es: about_es.md
+
+
 github_username:  markwsilliman
 twitter_username: MWSilliman
 

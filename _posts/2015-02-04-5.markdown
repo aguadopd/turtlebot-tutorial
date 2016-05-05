@@ -4,6 +4,8 @@ title:  "Following the Route Using Code"
 date:   2015-02-04 10:00:05
 answerrostag: "challenge_following_the_route"
 track: [challenge]
+ref: challenge_following_the_route
+lang: en
 ---
 
 We will combine our skills from two lessons:

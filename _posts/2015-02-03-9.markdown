@@ -4,6 +4,8 @@ title:  "Autonomous Navigation"
 date:   2015-02-03 10:00:09
 answerrostag: "simulation_autonomous"
 track: [simulation]
+ref: simulation_autonomous
+lang: en
 ---
 
 This lesson shows how to use the TurtleBot with a known map. In this lesson

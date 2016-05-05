@@ -4,6 +4,8 @@ title:  "Taking a Photo Using Code"
 date:   2015-02-04 10:00:03
 answerrostag: "challenge_photo_using_code"
 track: [challenge]
+ref: challenge_photo_using_code
+lang: en
 ---
 
 We have learned how to take a photo manually, but it is not very convenient.

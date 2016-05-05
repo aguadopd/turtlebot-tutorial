@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,14 +14,39 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
+      <ul>
+        {% assign pages=site.pages | where:"lang",page.lang %}
+        {% for page in pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+      </ul>
       </div>
-    </nav>
+      
+      <div>
+      <ul style="list-style-type: none; display: inline; padding: 0; margin: 0">
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+          <li>
+            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+          </li>
+        {% endfor %}
 
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+          <li>
+            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      </div>
+      
+    </nav>
+    
   </div>
+  
+  
+  
 
 </header>

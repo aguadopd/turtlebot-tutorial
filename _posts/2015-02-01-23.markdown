@@ -4,6 +4,8 @@ title:  "Respawning the Auto-Docking Server"
 date:   2015-02-01 13:46:23
 answerrostag: "respawn_autodock"
 track: [coffeebot]
+ref: respawn_autodock
+lang: en
 ---
 
 Our auto-docking script that allows CoffeeBot to auto-dock requires an auto-docking server. During our testing this crashed fairly often. That said, ROS provides launch files that can automatically spawn nodes that crash.

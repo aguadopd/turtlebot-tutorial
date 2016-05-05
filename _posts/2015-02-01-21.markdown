@@ -4,6 +4,8 @@ title:  "Installing the Chrome Browser Extension"
 date:   2015-02-01 13:46:21
 answerrostag: "chrome_extension"
 track: [coffeebot]
+ref: chrome_extension
+lang: en
 ---
 
 We might love ordering coffee from the terminal, but we suspect your customers won’t. Give them the CoffeeBot Chrome Extension so they can order in style.

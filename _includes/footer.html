@@ -6,14 +6,14 @@
 	<div style="margin-bottom:1.5em;">
 	<!--<h4><a href="https://groups.google.com/forum/#!forum/ros-sig-turtlebot" target="_blank">Questions / comments?  Post them on TurtleBot's Group</a></h4>-->
 	<div id="answerrosorg_title">
-		<div id="answerrosorg_title_main">ROS Answers Related to this Page</div>
+		<div id="answerrosorg_title_main">{{ site.data.footer.rosanswerstitle.[page.lang] }}</div>
 		
 		<div id="answerrosorg_title_leftmargin">
 			<div id="answerrosorg_title_sublinks">
-				<a href="javascript:void(0);" id="viewallquestions_footer" class="answerrosorg_hideifnoquestionsexist">View all Questions</a><span class="answerrosorg_hideifnoquestionsexist" id="questionsdot_footer">&#183;</span><a href="javascript:void(0);" id="askyourquestion_footer">Ask your Question</a>
+				<a href="javascript:void(0);" id="viewallquestions_footer" class="answerrosorg_hideifnoquestionsexist">{{ site.data.footer.viewallquestions.[page.lang] }}</a><span class="answerrosorg_hideifnoquestionsexist" id="questionsdot_footer">&#183;</span><a href="javascript:void(0);" id="askyourquestion_footer">{{ site.data.footer.askyourquestion.[page.lang] }}</a>
 			</div>
 			<div class="answerrosorg_hideifnoquestionsexist" id="answerrosorg_title_sub">
-				Recent Questions
+				{{ site.data.footer.recentquestions.[page.lang] }}
 			</div>
 			<div id="answerrosorg"></div>
 		</div>
@@ -25,7 +25,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>{{ site.title[page.lang] }}</li>
           <!--<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>-->
            {% if site.github_username %}
           <li>
@@ -67,10 +67,10 @@
 -->
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}  <br><a href="/about/">Contribute to the Project</a><br><a href="https://github.com/markwsilliman/turtlebot-tutorial">Fork the Project</a></p>
+        <p class="text">{{ site.description[page.lang] }}  <br><a href="/about/">{{ site.data.footer.contribute[page.lang] }}</a><br><a href="https://github.com/markwsilliman/turtlebot-tutorial">{{ site.data.footer.fork[page.lang] }}</a></p>
       </div>
 	  <div class="footer-col  footer-col-3">
-			<p class="text">Developed with <a href="http://www.turtlebot.com">TurtleBot.com</a> & <a href="http://www.ros.org">ROS.org</a>.</p>
+			<p class="text">{{ site.data.footer.developedwith[page.lang] }} <a href="http://www.turtlebot.com">TurtleBot.com</a> & <a href="http://www.ros.org">ROS.org</a>.</p>
 	  </div>
     </div>
 	{% if page.answerrostag %}

@@ -4,6 +4,8 @@ title:  "Hardware Setup"
 date:   2015-02-01 13:46:08
 answerrostag: "hardware"
 track: [main]
+ref: hardware
+lang: en
 ---
 
 {% include youtube.html youtubeid="dzZGsZPW4aY" youtubetitle="TurtleBot Hardware Setup"%}

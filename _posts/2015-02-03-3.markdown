@@ -4,6 +4,8 @@ title:  "Testing the TurtleBot Simulation"
 date:   2015-02-03 10:00:03
 answerrostag: "simulation_testing"
 track: [simulation]
+ref: simulation_testing
+lang: en
 ---
 
 We assume that you have already done the [installation step]({{ site.url }}{% post_url 2015-02-03-2 %}).

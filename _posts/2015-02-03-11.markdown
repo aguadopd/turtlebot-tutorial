@@ -4,6 +4,8 @@ title:  "Going to a Specific Location on Your Map Using Code"
 date:   2015-02-03 10:00:11
 answerrostag: "simulation_specific_location"
 track: [simulation]
+ref: simulation_specific_location
+lang: en
 ---
 
 In this lesson we will learn how to send robot a command: "go to a specific

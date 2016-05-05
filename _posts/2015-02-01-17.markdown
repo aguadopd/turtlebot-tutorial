@@ -4,6 +4,8 @@ title:  "Button Events"
 date:   2015-02-01 13:46:19
 answerrostag: "button_events"
 track: [main]
+ref: button_events
+lang: en
 ---
 
 To state the obvious, it would be pretty unsuccessful for TurtleBot to deliver the Keurig to someone and then have it start driving off while the original person is still brewing coffee.

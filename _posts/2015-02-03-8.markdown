@@ -4,6 +4,8 @@ title:  "Creating a Map"
 date:   2015-02-03 10:00:08
 answerrostag: "simulation_creat_map"
 track: [simulation]
+ref: simulation_creat_map
+lang: en
 ---
 
 This lesson shows how to build a map which lets the robot remembers the

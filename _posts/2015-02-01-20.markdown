@@ -4,6 +4,8 @@ title:  "Configure CoffeeBot’s Web Server"
 date:   2015-02-01 13:46:20
 answerrostag: "web_server"
 track: [coffeebot]
+ref: web_server
+lang: en
 ---
 
 {% include critical_pre.html title="Important" %}

@@ -4,6 +4,8 @@ title:  "Recording a Video"
 date:   2015-02-04 10:00:04
 answerrostag: "challenge_video"
 track: [challenge]
+ref: challenge_video
+lang: en
 ---
 
 In this lesson we will learn how to record a video. TurtleBot has different

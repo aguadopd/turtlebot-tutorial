@@ -1,21 +1,21 @@
 ---
 layout: default
 answerrostag: "index"
-lang: en
+lang: es
 ref: index
 ---
 
 <div class="home">
 
-  <h1>A "Getting Started" Guide for Developers Interested in Robotics</h1>
+  <h1>Una Guía Introductoria para Desarrolladores Interesados en la Robótica</h1>
   {% include youtube_index.html youtubeid="ni49uYq4cF4" title="Coffee Bot: Learn.TurtleBot.com's final demo." %}
 
   {% include image_onrightoftext.html img="/assets/turtlebot_2_lg.png" width="225" %}
 
-  <h2>Learning with the TurtleBot</h2>
+  <h2>Aprendiendo con el robot TurtleBot</h2>
   <ol>
     {% for post in site.posts reversed %}
-      {% if post.track contains "main" and post.lang == page.lang%}
+      {% if post.track contains "main" and post.lang == page.lang %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
@@ -23,10 +23,10 @@ ref: index
     {% endfor %}
   </ol>
 
-  <h2>CoffeeBot Challenge</h2>
+  <h2>Desafío CoffeeBot</h2>
   <ol>
     {% for post in site.posts reversed %}
-      {% if post.track contains "coffeebot" %}
+      {% if post.track contains "coffeebot" and post.lang == page.lang %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
@@ -34,10 +34,10 @@ ref: index
     {% endfor %}
   </ol>
 
-  <h2>Learning with the TurtleBot in Simulation</h2>
+  <h2>Aprendiendo con el Turtlebot en Simulación</h2>
   <ol>
     {% for post in site.posts reversed %}
-      {% if post.track contains "simulation" %}
+      {% if post.track contains "simulation" and post.lang == page.lang %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
@@ -45,10 +45,10 @@ ref: index
     {% endfor %}
   </ol>
 
-  <h2>Challenge in Simulation</h2>
+  <h2>Desafío en Simulación</h2>
   <ol>
     {% for post in site.posts reversed %}
-      {% if post.track contains "challenge" %}
+      {% if post.track contains "challenge" and post.lang == page.lang %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>

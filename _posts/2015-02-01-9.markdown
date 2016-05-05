@@ -4,6 +4,8 @@ title:  "Teleoperation"
 date:   2015-02-01 13:46:13
 answerrostag: "teleoperation"
 track: [main]
+ref: teleoperation
+lang: en
 ---
 
 Teleoperation allows you to manually control TurtleBot. Keyboard and joystick are the two primary ways to do this. Before we experiment with these two methods, we need to set up TurtleBot to receive our commands.
